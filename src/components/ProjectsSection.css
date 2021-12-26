@@ -1,0 +1,80 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+   
+}
+.outer-container{
+    background-color: #212536;
+}
+.project-box img{
+    width: 300px;
+}
+.container h2{
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+.subhead-title {
+    margin-top: 15px;
+    color: #c09e6f !important;
+    font-weight: bold;
+}
+.project-box p {
+    color: #fff;
+}
+.project-box {
+   
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.project-box img{
+    width: 100%;
+}
+.project-box h3 {
+    text-align: left;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.slick-arrow.slick-prev {
+    position: relative;
+    top: -40px;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 130px;
+    width: 54px;
+height: 54px;
+}
+.slick-arrow.slick-next {
+    position: absolute;
+    top: 0;
+    left: 30px;
+    width: 54px;
+height: 54px;
+}
+.slick-arrow.slick-next {
+    position: absolute;
+    top: -40px;
+    left: 180px;
+    width: 54px;
+height: 54px;
+}
+
+.slick-prev::before, .slick-next::before {
+    font-size: 50px !important; 
+    color: #f6c783 !important;
+}
+.slick-dots {
+    padding-top: 25px !important;
+    position: relative !important;
+    padding-bottom: 25px !important;
+}
+.slick-dots button {
+    background-color: #c09e6f !important;
+    border-radius: 50%;
+}
+.slick-slide a {
+    text-decoration: none;
+}
