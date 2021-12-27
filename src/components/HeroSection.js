@@ -10,9 +10,9 @@ function HeroSection() {
     <div className='hero-container'>
        <div className='hero-wrapper'>
       <div className='hero-description'>
-      <p className='description-intro'>Hi there! I'm pskkkkkkkkkkkkkk</p>
+      <p className='description-intro'>Hi there! I'm</p>
       <h1 className='' data-aos="flip-right">Dale Austin Gangoso</h1>
-      <p className='description-title'>A Web Developer pskkkkkkkkkkk</p>
+      <p className='description-title'>A Web Developer</p>
       <div className='hero-btns'>
       <div class="dg-pf-banner-start-button">
                             <a href="#skills">
