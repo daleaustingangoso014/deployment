@@ -64,3 +64,27 @@
 }
 
 
+
+
+.skills-main-section-wrapper ,
+.container {
+    padding: 25px;
+}
+.hero-container{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .hero-image {
+    display: none;
+}
+  .skills-main-section-inner {
+    display: grid !important;
+  }
+  .skill-blimp-description, .container.skill-blimp {
+ 
+    width: 100% !important;
+}
+}
