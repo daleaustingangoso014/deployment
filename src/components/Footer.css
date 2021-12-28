@@ -1,3 +1,6 @@
+.social-logo img {
+  width: 300px;
+}
 .footer-container {
     background-color: #242424;
     padding: 4rem 0 2rem 0;
@@ -5,6 +8,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-top: 5px solid #f6c783;
   }
   
   .footer-subscription {

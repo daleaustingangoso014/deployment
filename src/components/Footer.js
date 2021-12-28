@@ -64,13 +64,13 @@ function Footer() {
           <div class='social-media-wrap'>
             <div class='footer-logo'>
               <Link to='/' className='social-logo'>
-                DGANGOSO
-                <i class='fab fa-typo3' />
+              <img src={'../images/portfolio-logo-website.png'} />
               </Link>
             </div>
             <small class='website-rights'>DGANGOSO © 2022</small>
             <div class='social-icons'>
               <Link
+                
                 class='social-icon-link facebook'
                 to='/'
                 target='_blank'
