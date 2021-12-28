@@ -25,7 +25,7 @@ export default class SimpleSlider extends Component {
             <img src={'../images/project1.jpg'} />
               <p class="subhead-title">Website, Affiliate</p>
               <h3>HowToHome</h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry ss.</p>
+              <p>Lorem Ipsum</p>
             </div>
             </a>
             <a href="https://www.merchantventurers.com/">
