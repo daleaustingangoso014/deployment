@@ -6,6 +6,7 @@ import SkillsSection from '../SkillsSection';
 import { Helmet } from 'react-helmet';
 import Projects from '../ProjectsSection';
 import ProjectsSection from '../ProjectsSection';
+import Testimonials from '../Testimonials';
 
 function Home() {
   return (
@@ -22,6 +23,7 @@ function Home() {
       <HeroSection />
       <SkillsSection />
       <ProjectsSection />
+      <Testimonials />
       <Footer />
     </>
   );

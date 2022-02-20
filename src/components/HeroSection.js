@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
-
+ 
 
 
 function HeroSection() {
@@ -10,9 +10,9 @@ function HeroSection() {
     <div className='hero-container'>
        <div className='hero-wrapper'>
       <div className='hero-description'>
-      <p className='description-intro'>Hi there! I'm</p>
-      <h1 className='' data-aos="flip-right">Dale Austin Gangoso</h1>
-      <p className='description-title'>A Web Developer</p>
+      <p className='description-intro' data-aos="fade-right">Hi there! I'm</p>
+      <h1 className='' data-aos="fade-up">Dale Austin Gangoso</h1>
+      <p className='description-title' data-aos="fade-right">A Web Developer</p>
       <div className='hero-btns'>
       <div class="dg-pf-banner-start-button">
                             <a href="#skills">
@@ -26,7 +26,12 @@ function HeroSection() {
       </div> 
       </div>
       <div className='hero-image'>
-      <img src={'../images/final-avatar.png'} />
+      <div class="hero-graphico" data-aos="zoom-in-up">
+
+      <img src={'../images/final-avatar.webp'} />
+      </div>
+      
+
       </div>
       </div> 
 

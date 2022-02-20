@@ -23,11 +23,23 @@
 .project-box p {
     color: #fff;
 }
+.fi-mainbox {
+    width: 50%;
+    float: left;
+  }
+  .descrption-mainbox {
+    float: left;
+    width: 50%;
+  }
 .project-box {
-   
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+.descrption-mainbox {
     padding-left: 25px;
     padding-right: 25px;
-}
+  }
 .project-box img{
     width: 100%;
 }
@@ -77,4 +89,13 @@ height: 54px;
 }
 .slick-slide a {
     text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+.fi-mainbox,
+.descrption-mainbox{
+  padding: 0;
+  width: 100%;
+  padding-bottom: 15px !important;
+}
 }
