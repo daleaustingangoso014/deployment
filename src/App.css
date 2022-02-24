@@ -6,6 +6,11 @@
 }
 .skills-main-section-container{
   overflow: hidden;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+.container h2{
+  margin-bottom: 0 !important;
 }
 /* body {
   animation: fadeInAnimation ease 1s;
@@ -65,9 +70,7 @@ h2{
   font-size: 100px;
 }
 
-.hero-image img{
-   width: 350px;
-}
+
 
 
 

@@ -9,7 +9,9 @@ video {
     max-width: 1200px;
     margin: 0 auto;
 } 
- 
+.hero-image img {
+  max-width: 450px;
+}
 .hero-graphico {
   position: relative;
 }
@@ -17,11 +19,11 @@ video {
   content: '';
   background: url('/images/reform-bg.png') center center/cover no-repeat;
   height: 424px;
-  width: 500px;
+  width: 450px;
   z-index: 0;
   display: inline-flex;
   position: absolute;
-  left: -87px;
+  left: 10px;
   right: 0;
   margin: 0 auto;
   z-index: 0;
@@ -103,14 +105,18 @@ position: relative;
   }
   
   @media screen and (max-width: 768px) {
+    .skills-main-section-container,
+    .skills-main-section-wrapper{
+      padding-top: 10px !important;
+    }
     .hero-description h1 {
-      font-size: 36px;
+      font-size: 30px;
     }
     .description-title {
-      font-size: 25px;
+      font-size: 20px;
     }
     .description-intro{
-      font-size: 20px; 
+      font-size: 15px; 
     }
     .hero-container > h1 {
       font-size: 50px;

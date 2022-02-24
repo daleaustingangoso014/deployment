@@ -2,6 +2,8 @@ import React from 'react';
 import '../App.css';
 import './SkillsSection.css';
 import SkillBar from 'react-skillbars'; 
+import { Link } from 'react-router-dom';
+
 
 function SkillsSection() {
     const skills = [
@@ -19,7 +21,8 @@ function SkillsSection() {
         
         {type: "Wordpress", level: 90},
         {type: "Affiliate", level: 40},
-        {type: "React sites", level: 60},
+        {type: "React Js", level: 60},
+        {type: "Woocommerce", level: 45},
       ]; 
       const colors = {
         "bar": "#f6c783",
@@ -47,12 +50,61 @@ function SkillsSection() {
     <div className='skill-blimp-description' data-aos="fade-left" >
     <h2>About Me</h2>
     <p>
-My interest in web development has lead me as I am today. I worked on a company called binaryanvil which is located at bacolod philippines, It is an ecommerece development firm which focuses on magento development. I worked there as a backend developer for 8 months then I decided to give a go to online freelancing and I fell inlove with it eversince. I worked on Wordpress websites "Affiliate" ,"Reviews" or "Online Market (Woocommerce)" and creating my own custom plugins. and have learned to fix any problems that is given to me and on to this day I am still honing my skill for best practices when it comes to development work. I am easy to work with and very reasonable and If you are interested please hit me up so that we can get started.
+    A Web Developer with a proven ability to adapt in both self-starting and collaborative environments while staying focused on achieving high-quality results under strict deadlines. Experience in Responsive Web Design, Developing user interface, testing, and debugging. Proven ability in optimizing web functionalities that improve data retrieval and workflow efficiency.
+</p>
+<p>
+I am eager to obtain a challenging position at a prestigious company that will expand my learning and build upon my developer skills
 </p>
 
 <h2 className='contact-me-heading'>Contact Me:</h2>
 <div className='contact-me'>Skype: <a href="mailto:daleaustingangoso014@outlook.com">daleaustingangoso014@outlook.com</a></div>
-<div className='contact-me'>Telephone: <a href="tel:09453229563">0945-322-9563</a></div>
+<div className='contact-me'>Telephone: <a href="tel:+639453229563">(+63) 945-322-9563</a></div>
+
+<h2 className='contact-me-heading'>Follow or Add me on:</h2>
+
+<div class='social-icons'>
+              <Link
+                
+                class='social-icon-link facebook'
+                to='/'
+                target='_blank'
+                aria-label='Facebook'
+              >
+                <i class='fab fa-facebook-f' />
+              </Link>
+              <Link
+                class='social-icon-link instagram'
+                to='/'
+                target='_blank'
+                aria-label='Instagram'
+              >
+                <i class='fab fa-instagram' />
+              </Link>
+              <Link
+                class='social-icon-link youtube'
+                to='/'
+                target='_blank'
+                aria-label='Youtube'
+              >
+                <i class='fab fa-youtube' />
+              </Link>
+              <Link
+                class='social-icon-link twitter'
+                to='/'
+                target='_blank'
+                aria-label='Twitter'
+              >
+                <i class='fab fa-twitter' />
+              </Link>
+              <Link
+                class='social-icon-link twitter'
+                to='/'
+                target='_blank'
+                aria-label='LinkedIn'
+              >
+                <i class='fab fa-linkedin' />
+              </Link>
+            </div>
 
 </div>
     </div>

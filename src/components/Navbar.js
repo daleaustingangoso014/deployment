@@ -36,7 +36,7 @@ function Navbar() {
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/' className='nav-links' onClick={() => window.location.replace("/#skills")}>
                 About
               </Link>
             </li>
@@ -44,8 +44,8 @@ function Navbar() {
               <Link
                 to='/'
                 className='nav-links'
-                onClick={closeMobileMenu}>
-                Works
+                onClick={() => window.location.replace("/#projects")}>
+                Projects
               </Link>
             </li>
             <li className='nav-item'>
@@ -56,18 +56,7 @@ function Navbar() {
                 Contact
               </Link>
             </li>
-
-            <li>
-              <Link
-                to='/sign-up'
-                className='nav-links-mobile'
-                onClick={closeMobileMenu}
-              >
-                Sign Up
-              </Link>
-            </li>
           </ul>
-           
         </div>
       </nav>
     </>

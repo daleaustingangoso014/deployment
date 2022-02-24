@@ -28,7 +28,7 @@ function HeroSection() {
       <div className='hero-image'>
       <div class="hero-graphico" data-aos="zoom-in-up">
 
-      <img src={'../images/final-avatar.webp'} />
+      <img src={'../images/avatar2.png'} />
       </div>
       
 

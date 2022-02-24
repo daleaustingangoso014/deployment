@@ -4,6 +4,11 @@
 }
 .skill-blimp-description p {
   font-size: 18px;
+  margin-bottom: 15px;
+}
+.skill-blimp-description a {
+  color: #f6c783;
+  text-decoration: none;
 }
 .skill-blimp h2,
 .skill-blimp-description h2{
