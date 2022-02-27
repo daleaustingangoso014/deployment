@@ -116,12 +116,14 @@
     margin-bottom: 40px;
     text-align: center;
   }
-  
+  .social-icons a {
+    padding-right: 20px;
+  }
   .social-icons {
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 240px;
+    width: 240px; */
   }
   
   .social-logo {
