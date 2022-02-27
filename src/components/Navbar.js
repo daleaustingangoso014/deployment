@@ -48,14 +48,14 @@ function Navbar() {
                 Projects
               </Link>
             </li>
-            {/* <li className='nav-item'>
+            <li className='nav-item'>
               <Link
                 to='/'
                 className='nav-links'
-                onClick={closeMobileMenu}>
-                Contact
+                onClick={() => window.location.replace("/#testimonials")}>
+                Testimonials
               </Link>
-            </li> */}
+            </li>
           </ul>
         </div>
       </nav>
