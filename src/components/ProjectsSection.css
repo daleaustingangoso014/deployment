@@ -56,26 +56,20 @@
 }
 .slick-arrow.slick-prev {
     position: relative;
-    top: -40px;
+    top: -35px;
     right: 0 !important;
     bottom: 0 !important;
     left: 130px;
     width: 54px;
-height: 54px;
+ 
 }
+ 
 .slick-arrow.slick-next {
     position: absolute;
-    top: 0;
-    left: 30px;
-    width: 54px;
-height: 54px;
-}
-.slick-arrow.slick-next {
-    position: absolute;
-    top: -40px;
+    top: -35px;
     left: 180px;
     width: 54px;
-height: 54px;
+ 
 }
 
 .slick-prev::before, .slick-next::before {

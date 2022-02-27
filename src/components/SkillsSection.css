@@ -6,6 +6,10 @@
   font-size: 18px;
   margin-bottom: 15px;
 }
+.skills-quote-container {
+  position: relative;
+  padding-top: 15px;
+}
 .skill-blimp-description a {
   color: #f6c783;
   text-decoration: none;
