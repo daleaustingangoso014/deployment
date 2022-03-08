@@ -46,7 +46,26 @@ function SkillsSection() {
            <SkillBar skills={skills} colors={colors} height={15}/>
            <h2>Platform</h2>
            <SkillBar skills={skillstwo} colors={colors} height={15}/>
+
+           <h2 className='contact-me-heading'>Certificates</h2>
+     <div className="certificates-main">
+       <div className="certificates-wrapper">
+       <div className="certificates-item">
+     <a href="https://app.testdome.com/cert/1254ec753ce74e758b722f1f84daf138" class="testdome-certificate-stamp silver"><span class="testdome-certificate-name">    
+        Dale Austin K. Gangoso
+    
+</span><span class="testdome-certificate-test-name">PHP and WordPress </span><span class="testdome-certificate-card-logo">TestDome<br />Certificate</span></a>
+       </div>
+       <div className="certificates-item">
+       <a href="https://app.testdome.com/cert/060da72bac824b0bae209b6975d560e1" class="testdome-certificate-stamp silver"><span class="testdome-certificate-name">    
+        Dale Austin K. Gangoso
+    
+</span><span class="testdome-certificate-test-name">HTML/CSS </span><span class="testdome-certificate-card-logo">TestDome<br />Certificate</span></a><script>var stylesheet = "https://app.testdome.com/content/source/stylesheets/embed.css", link = document.createElement("link"); link.href = stylesheet, link.type = "text/css", link.rel = "stylesheet", link.media = "screen,print", document.getElementsByTagName("head")[0].appendChild(link);</script>
+       </div>
+       </div>
+     </div>
            </div>
+           
     <div className='skill-blimp-description' data-aos="fade-left" >
     <h2>About Me</h2>
     <p>
@@ -57,7 +76,7 @@ I am eager to obtain a challenging position at a prestigious company that will e
 </p>
 
 <h2 className='contact-me-heading'>Contact Me:</h2>
-<div className='contact-me'>Skype: <a href="mailto:daleaustingangoso014@outlook.com">daleaustingangoso014@outlook.com</a></div>
+<div className='contact-me'>Skype: <a href="mailto:daleaustingangoso014@gmail.com">daleaustingangoso014@gmail.com</a></div>
 <div className='contact-me'>Telephone: <a href="tel:+639453229563">(+63) 945-322-9563</a></div>
 
 <h2 className='contact-me-heading'>Follow or Add me on:</h2>
@@ -93,7 +112,7 @@ I am eager to obtain a challenging position at a prestigious company that will e
               </a>
                
             </div>
-
+        
 </div>
     </div>
        </div> 

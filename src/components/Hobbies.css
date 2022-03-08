@@ -1,0 +1,19 @@
+#hobbies .wrapper{
+  display: flex;
+}
+.hobbies-descripton-section p {
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 25px;
+  }
+  .hobbies-image-main-section {
+    border: 5px solid;
+  }
+.hobbies-image-main-section,
+.hobbies-descripton-section{
+    float: left;
+    width: 50%;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #fff;
+}

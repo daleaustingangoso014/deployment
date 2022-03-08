@@ -7,6 +7,7 @@ import { Helmet } from 'react-helmet';
 import Projects from '../ProjectsSection';
 import ProjectsSection from '../ProjectsSection';
 import Testimonials from '../Testimonials';
+import Hobbies from '../Hobbies';
 
 function Home() {
   return (
@@ -24,6 +25,7 @@ function Home() {
       <SkillsSection />
       <ProjectsSection />
       <Testimonials />
+      <Hobbies />
       <Footer />
     </>
   );

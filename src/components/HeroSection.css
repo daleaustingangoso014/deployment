@@ -95,8 +95,11 @@ position: relative;
   }
   
   @media screen and (max-width: 960px) {
+    .hero-container,
     .hero-wrapper {
-        display: block;
+        display: block !important;
+        padding-left: 25px;
+padding-right: 25px;
       }
     .hero-container > h1 {
       font-size: 70px;
