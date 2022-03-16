@@ -25,7 +25,7 @@ function Home() {
       <SkillsSection />
       <ProjectsSection />
       <Testimonials />
-      <Hobbies />
+      {/* <Hobbies /> */}
       <Footer />
     </>
   );
