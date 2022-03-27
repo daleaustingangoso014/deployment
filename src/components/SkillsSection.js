@@ -21,9 +21,18 @@ function SkillsSection() {
         
         {type: "Wordpress", level: 90},
         {type: "Affiliate", level: 40},
-        {type: "React Js", level: 60},
+        {type: "Wix", level: 55},
         {type: "Woocommerce", level: 45},
+
       ]; 
+      const skillspersonal = [
+        
+        {type: "Communication", level: 98},
+        {type: "Organizational", level: 95},
+        {type: "Motivated", level: 100},
+        {type: "Reliable", level: 95},
+
+      ];
       const colors = {
         "bar": "#f6c783",
         "title": {
@@ -42,28 +51,12 @@ function SkillsSection() {
                
            <div class="container skill-blimp"  data-aos="fade-right">
            <p class="small-tag-heading">Proficiency</p>    
-           <h2>Skills</h2>
-           <SkillBar skills={skills} colors={colors} height={15}/>
-           <h2>Platform</h2>
-           <SkillBar skills={skillstwo} colors={colors} height={15}/>
-
-           <h2 className='contact-me-heading'>Certificates</h2>
-     <div className="certificates-main">
-       <div className="certificates-wrapper">
-       <div className="certificates-item">
-     <a href="https://app.testdome.com/cert/1254ec753ce74e758b722f1f84daf138" class="testdome-certificate-stamp silver"><span class="testdome-certificate-name">    
-        Dale Austin K. Gangoso
-    
-</span><span class="testdome-certificate-test-name">PHP and WordPress </span><span class="testdome-certificate-card-logo">TestDome<br />Certificate</span></a>
-       </div>
-       <div className="certificates-item">
-       <a href="https://app.testdome.com/cert/060da72bac824b0bae209b6975d560e1" class="testdome-certificate-stamp silver"><span class="testdome-certificate-name">    
-        Dale Austin K. Gangoso
-    
-</span><span class="testdome-certificate-test-name">HTML/CSS </span><span class="testdome-certificate-card-logo">TestDome<br />Certificate</span></a><script>var stylesheet = "https://app.testdome.com/content/source/stylesheets/embed.css", link = document.createElement("link"); link.href = stylesheet, link.type = "text/css", link.rel = "stylesheet", link.media = "screen,print", document.getElementsByTagName("head")[0].appendChild(link);</script>
-       </div>
-       </div>
-     </div>
+           <h2>Technical Skills</h2>
+           <SkillBar skills={skills} colors={colors} height={25}/>
+           <SkillBar skills={skillstwo} colors={colors} height={25}/>
+           <h2>Personal Skills</h2>
+           <SkillBar skills={skillspersonal} colors={colors} height={25}/>
+       
            </div>
            
     <div className='skill-blimp-description' data-aos="fade-left" >
@@ -112,6 +105,23 @@ I am eager to obtain a challenging position at a prestigious company that will e
               </a>
                
             </div>
+            <h2 className='contact-me-heading'>Certificates</h2>
+     <div className="certificates-main">
+       <div className="certificates-wrapper">
+       <div className="certificates-item">
+     <a href="https://app.testdome.com/cert/1254ec753ce74e758b722f1f84daf138" class="testdome-certificate-stamp silver"><span class="testdome-certificate-name">    
+        Dale Austin K. Gangoso
+    
+</span><span class="testdome-certificate-test-name">PHP and WordPress </span><span class="testdome-certificate-card-logo">TestDome<br />Certificate</span></a>
+       </div>
+       <div className="certificates-item">
+       <a href="https://app.testdome.com/cert/060da72bac824b0bae209b6975d560e1" class="testdome-certificate-stamp silver"><span class="testdome-certificate-name">    
+        Dale Austin K. Gangoso
+    
+</span><span class="testdome-certificate-test-name">HTML/CSS </span><span class="testdome-certificate-card-logo">TestDome<br />Certificate</span></a><script>var stylesheet = "https://app.testdome.com/content/source/stylesheets/embed.css", link = document.createElement("link"); link.href = stylesheet, link.type = "text/css", link.rel = "stylesheet", link.media = "screen,print", document.getElementsByTagName("head")[0].appendChild(link);</script>
+       </div>
+       </div>
+     </div>
         
 </div>
     </div>
